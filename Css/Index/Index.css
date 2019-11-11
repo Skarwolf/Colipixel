@@ -1,0 +1,121 @@
+@font-face{
+    font-family:'VT323-Regular';
+    src: url('../Assets/Font/VT323/VT323-Regular.ttf')
+}
+
+.info{
+   /* background-color: rgb(189, 21, 21);*/
+    height: 100px;
+    margin-top:1%;
+   /* border: solid;*/
+}
+
+
+
+/*(Começo) Div Raning*/
+
+.rank{
+    width: 90%;
+    margin-top: 50%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    grid-template-rows: auto;
+    grid-gap: 0 40px;
+}
+
+.rank .box{
+    height: 300px;
+    border-radius:24px;
+    backdrop-filter: #060c21;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid #000;
+}
+
+.rank .box:before
+{
+    content:'';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: #FFD700;
+    transform: skew(2deg,2deg);
+    z-index:-1;
+}
+
+.centro{
+    position: relative;
+    padding: 20px;
+    
+}
+.centro h2{
+    position: absolute;
+    top: -50px;
+    right: 10px;
+    margin: 0;
+    padding: 0;
+    font-size: 15em;
+    color: rgba(255, 255, 255, .05);
+    font-family:'VT323-Regular';
+    transition: 1s;
+}
+.box:hover .centro h2{
+    top: -140px;
+    color: rgba(47, 0, 255, 0.05);
+
+    
+}
+
+
+.box:hover .centro h3{
+    
+    margin: 0 0 10px;
+    padding: 0;
+    font-size:30px;
+    font-weight: 500;
+    color: red;
+}
+.box:hover .centro p{
+    font-size:20;
+    color: red;
+   
+
+}
+
+.box .centro a{
+    position: relative;
+    margin:0;
+    padding: 10px 20px;
+    text-decoration: none;
+    border:1px solid #fff;
+    display: inline-block;
+    color: #fff;
+    transition: 0.5s;
+    transform: translateY(-40px);
+    visibility: hidden;
+    opacity: 0;
+}
+.box:hover .centro a{
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+}
+.box .centro a:hover{
+    color: red;
+    background: #fff;
+}
+
+/*(Fim) Div Raning*/
+
+.Feed{
+    margin-top: 20%;
+    border: 2px solid black;
+    box-shadow: 0 5px 15px -5px red;
+    height: 600px;
+    width: 700px;
+    border-radius:24px;
+    
+}

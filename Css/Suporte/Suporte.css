@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'VT323-Regular';
+}
+
+.IcoL{
+    width: 50%;
+}
+
+.Contato{
+    background: #1c1c1c;
+    padding: 80px 0;
+    text-align: center;
+}
+.Contato h1{
+    font-size:50px;
+    color: #fff;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-weight: 400;
+}
+
+.Mensagem{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+
+.name, .email, .MS{
+    background: none;
+    border: 2px solid #D3D3D3	;
+    outline: none;
+    border-bottom: 1px solid;
+    color: #fff;
+    padding: 10px 6px;
+    font-size: 14px;
+    margin-bottom: 40px;
+    border-radius: 24px;
+}
+
+.name{
+    float:left;
+    width: 270px;
+}
+.name:hover{
+    border: 2px solid red;
+    transform: scale(0.96);
+}
+
+.email{
+    float:right;
+    width: 270px;
+}
+.email:hover{
+    border: 2px solid red;
+    transform: scale(0.96);
+}
+
+.MS{
+    min-width: 100%;
+    max-width: 100%;
+}
+.MS:hover{
+    border: 2px solid red;
+    transform: scale(0.96);
+}
+
+.Contato button{
+    border: 2px solid #2ecc71;
+    background: none;
+    padding: 12px 40px;
+    font-size:20px;
+    text-transform: uppercase;
+    border-radius: 24px;
+}
+
+.Contato button:hover{
+    background: #2ecc71;
+    transform: scale(0.96);
+}

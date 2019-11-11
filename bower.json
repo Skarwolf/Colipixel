@@ -1,0 +1,26 @@
+{
+  "name": "ColiPixel",
+  "description": "Desenvolvimento de Site",
+  "main": "Main.js",
+  "keywords": [
+    "Skar"
+  ],
+  "authors": [
+    "Lucas Aguiar (Skarwolf)"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "fontawesome": "^5.11.1"
+  }
+}

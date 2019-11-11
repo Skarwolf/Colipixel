@@ -1,0 +1,28 @@
+/*Menu*/
+@font-face{
+    font-family:'VT323-Regular';
+    src: url('../Assets/Font/VT323/VT323-Regular.ttf')
+}
+.title{
+    font-family: 'VT323-Regular';
+    font-size: 30px;
+}
+
+ul li a{
+    color:#2196f3;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 1s;
+    letter-spacing: 0.5px;
+    font-family: 'VT323-Regular';
+    font-size: 20px;
+}
+
+/*Button*/
+#Entrar{
+    margin: 5px;
+    font-family: 'VT323-Regular';
+}
+#Registrar{
+    font-family: 'VT323-Regular';
+}

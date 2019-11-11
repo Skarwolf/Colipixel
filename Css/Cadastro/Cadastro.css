@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'VT323-Regular';
+}
+
+.IcoL{
+    width: 50%;
+}
+
+.Regis-form{
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    background: #000000;
+    position: relative;
+    top: 45%;
+    box-shadow: 0 5px 15px -5px red;
+    color: #3498db;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    border-radius: 24px;
+}
+
+.Regis-form h1{
+    margin-top: 30px;
+    color: #fff;
+    font-size: 40px;
+}
+
+.Regis-form a{
+    text-decoration: none;
+    color: #fff;
+    font-size:  20px;
+    padding: 10px;
+    transition: 0.8s;
+}
+
+.Regis-form a:hover{
+    transform: scale(0.96);
+    color: Red;
+}
+
+.Regis-form input{
+    display:block;
+    border-radius: 24px;
+    width: 100%;
+    padding: 0 16px;
+    height: 44px;
+    text-align: center;
+    box-sizing: border-box;
+    outline: none;
+    
+}
+
+/**/
+
+.For{
+    margin: 20px 0;
+    background: none;
+    color: white;
+
+}
+
+/**/
+
+.Regis-btn{
+
+    margin-bottom: 20px;
+    border: 2px solid #2ecc71	;
+    background: none;
+    color: #fff;
+    cursor:pointer;
+    transition: 0.8s;
+
+}
+
+/**/
+
+.Regis-form input[type = "text"]:focus,.Regis-form input[type = "password"]:focus ,input[type= "email"]:focus{
+    border-color: red;
+    transform: scale(0.96);
+}
+
+/**/
+
+.Regis-form input[type = "submit"]:hover{
+    background: #2ecc71;
+    transform: scale(0.96);
+}

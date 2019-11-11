@@ -1,0 +1,79 @@
+body{
+    background:#0f0f0f	;
+    font-family: sans-serif;
+}
+@font-face{
+    font-family:'VT323-Regular';
+    src: url('../Assets/Font/VT323/VT323-Regular.ttf')
+}
+
+.Interface{
+    width: 100%;
+    height: 800px;
+    box-shadow: 10 10px 5px -7px rgba(0,0,0,.09);
+    background-color:#1c1c1c;
+    border-color: #000;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px -5px red;
+    
+}
+
+/*Banner Principal*/
+.banner{
+    text-align: center;
+    color: white;
+}
+.BText{
+    
+    font-family:'VT323-Regular';
+    color: #000;
+    font-size:90px;
+    justify-content: center;
+    position: relative;
+ 
+}
+.Ico{
+    width: 10%;
+    position: relative;
+    top:-1em;
+    left:-11.2em;
+}
+
+.sm-container{
+    text-align: center;
+}
+
+.sm-container i{
+    color: red;
+    position: relative;
+    padding: 10px;
+    font-size: 40px;
+    left:10%;
+    text-align: center;
+    cursor:pointer;
+    transition: 0.4s;
+}
+
+.sm-container i:hover{
+    transform: scale(1.2);
+}
+
+.sm-menu{
+    border-radius: 8px;
+    display:none;
+}
+
+.sm-menu::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #1c1c1c;
+    position: absolute;
+    top: 10px;
+    left: 100px;
+    transform: translateX(-50%) rotate(45deg);
+}
+
+
+
+
